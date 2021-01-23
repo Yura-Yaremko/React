@@ -1,0 +1,25 @@
+.header {
+    grid-area: h;
+    background-color: #006D7F;
+    /* height: 60px; */
+    position: relative;
+    margin: 10px;
+}
+
+.header img {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 0px 0px #333; */
+}
+
+.loginBlock {
+    float: right;
+}
+
+.loginBlock a {
+    color: white;
+}

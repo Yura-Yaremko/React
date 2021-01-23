@@ -1,0 +1,55 @@
+.postBlock {
+    padding: 10px;
+}
+
+.posts {
+    margin-top: 10px;
+}
+
+.textBox {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+
+.textBox h2 {
+    color: #2F4858;
+}
+
+.areaBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.area {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid gold;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.addButtonBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.addButtonBox button {
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    font-family: fantasy;
+    border: 2px solid silver;
+    background: #006D7F;
+    color: whitesmoke;
+}
+
+.addButtonBox button:hover {
+    background-color: #2F4858;
+}

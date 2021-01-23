@@ -1,0 +1,52 @@
+.nav {
+    grid-area: n;
+    background-color: #2F4858;
+    margin: 10px;
+}
+
+.item {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0 0 10px;
+    text-decoration: none;
+}
+
+.item span {
+    color: whitesmoke;
+}
+
+.active span {
+    color: gold;
+}
+
+.item:hover {
+    padding: 0px 0 0 25px;
+    background-color: #374955;
+    border: 2px solid #333;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.friend img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid silver;
+    /* margin-bottom: 20px; */
+}
+
+.friend span {
+    color: whitesmoke;
+}
+
+.friendText {
+    display: flex;
+    /* justify-content: center; */
+    color: whitesmoke;
+}
